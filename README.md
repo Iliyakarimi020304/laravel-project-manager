@@ -1,6 +1,6 @@
 # Laravel Project & Task Manager
 
-A modern, responsive **project & task management app** built with Laravel Breeze (dark mode enabled).  
+A modern, responsive **project & task management app** built with Laravel Breeze.  
 Manage projects, track tasks, set priorities, and keep deadlines in check — all in one place.
 
 ---
