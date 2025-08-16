@@ -1,24 +1,30 @@
-# Laravel Project & Task Manager
+# Task Manager
 
-A modern, responsive **project & task management app** built with Laravel Breeze.  
-Manage projects, track tasks, set priorities, and keep deadlines in check — all in one place.
+A simple project and task management system built with Laravel.
 
----
+## Features
 
-## 🚀 Features
+- Project CRUD (Create, Read, Update, Delete)
+- Task CRUD with due dates, priority, and status
+- Priority badges (High, Medium, Low)
+- Status tracking (Todo, Pending, Done)
+- Overdue tasks section
+- Dashboard with stats
 
-- **Projects Management** – Create, edit, and delete projects
-- **Task Management** – Add tasks with due dates, priority, and status
-- **Priority Badges** – Color-coded for High, Medium, and Low
-- **Status Tracking** – Todo, Pending, Done
-- **Overdue Tasks Section** – Highlights past-due items
-- **Dashboard Stats** – Total projects, total tasks, completed tasks
-📚 Tech Stack
+## Tech Stack
 
-Laravel 11
+- Laravel 11
+- Laravel Breeze (authentication)
+- Tailwind CSS
+- MySQL
 
-MySQL
+## Setup Instructions
 
-TailwindCSS
-
-Breeze (Authentication)
+```bash
+git clone https://github.com/your-username/your-repo.git
+cd your-repo
+composer install
+cp .env.example .env
+php artisan key:generate
+php artisan migrate
+php artisan serve
