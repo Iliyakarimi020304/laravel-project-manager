@@ -22,7 +22,7 @@ A simple project and task management system built with Laravel.
 
 ```bash
 git clone https://github.com/Iliyakarimi020304/laravel-project-manager.git
-cd your-repo
+cd laravel-project-manager
 composer install
 cp .env.example .env
 php artisan key:generate
