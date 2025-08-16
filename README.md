@@ -13,3 +13,12 @@ Manage projects, track tasks, set priorities, and keep deadlines in check — al
 - **Status Tracking** – Todo, Pending, Done
 - **Overdue Tasks Section** – Highlights past-due items
 - **Dashboard Stats** – Total projects, total tasks, completed tasks
+📚 Tech Stack
+
+Laravel 11
+
+MySQL
+
+TailwindCSS
+
+Breeze (Authentication)
